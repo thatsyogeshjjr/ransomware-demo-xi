@@ -1,0 +1,15 @@
+To run the ransomware:  python app.py
+
+
+* encrypting files
+* decrypting files
+* delete files after 3 wrong tries
+* 2 win
+    * main win(after encrytion)
+    * bye win(after decrypting files)
+* irritating popup cant close
+    * for DEBUGGING: use <Escape> to exit this loop
+
+<< Maybe Future Improvements >>
+* files delete after a specific time
+* send email to attacked with files encrypted
