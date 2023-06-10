@@ -27,7 +27,7 @@ import os
 files = os.listdir()
 enc_files = []
 for file in files:
-    if file in ["env","enc_key","encrypt.py","scripts","__pycache__","decrypt.py","images","app.py","bye.py"]:
+    if file in ["env","enc_key","encrypt.py","scripts","__pycache__","decrypt.py","images","app.py","bye.py",'.git']:
         continue
     else:
         encrypt_data(file)

